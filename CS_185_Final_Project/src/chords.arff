@@ -1,0 +1,24 @@
+% Classification Test
+% 
+@RELATION chords
+
+@ATTRIBUTE pitch1 {C,D,E,F,G,A,B}
+@ATTRIBUTE pitch2 {C,D,E,F,G,A,B}
+@ATTRIBUTE pitch3 {C,D,E,F,G,A,B}
+@ATTRIBUTE class {C-Major,D-minor,E-minor,F-Major,G-Major,A-minor,B-diminished}
+
+@DATA
+C,E,G,C-Major
+E,C,G,C-Major
+G,E,C,C-Major
+F,A,C,F-Major
+G,B,D,G-Major
+B,E,G,E-minor
+G,B,E,E-minor
+D,F,A,D-minor
+D,F,B,B-diminished
+A,C,E,A-minor
+C,A,E,A-minor
+F,D,A,D-minor
+C,A,F,F-Major
+D,G,B,G-Major
